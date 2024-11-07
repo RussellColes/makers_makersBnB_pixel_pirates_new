@@ -51,7 +51,7 @@ def test_create_space(db_connection, page, test_web_address):
 
     page.click("text='List another space'")
 
-    page.fill("input[name='title']", "Title 4")
+    page.fill("input[name='title']", "Space: Title 4")
     page.fill("input[name='location']", "Location 4")
     page.fill("input[name='headline_description']", "Headline Description 4")
     page.fill("input[name='description']", "Description 4")
